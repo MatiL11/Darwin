@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+.wave-lines path {
+  opacity: 0.05;
+}
+
+:root {
+  font-family: 'Satoshi', 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Satoshi', 'Poppins', sans-serif;
+}
+
+* {
+  font-family: 'Satoshi', 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Font family utility classes */
+.font-roboto {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Font weight utility classes */
+.font-satoshi-regular {
+  font-weight: 400;
+}
+
+.font-satoshi-medium {
+  font-weight: 500;
+}
+
+.font-satoshi-bold {
+  font-weight: 700;
+}
+
+/* Desktop responsive styles */
+@media (min-width: 1025px) {
+  .desktop-container {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .responsive-container {
+    flex-direction: column;
+    height: auto !important;
+  }
+
+  .responsive-container > div {
+    width: 100% !important;
+    padding: 1.5rem !important;
+  }
+}
+
+/* Ocultar scrollbar para el auto-scroll de logos */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Estilos para el auto-scroll de logos */
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+/* Allow scrolling within components when needed */
+.allow-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+}
+
+/* Ensure content fits within viewport */
+.fit-viewport {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+/* Responsive scaling for different screen sizes */
+@media (min-width: 1440px) {
+  .scale-content {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .scale-content {
+    transform: scale(0.9);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .scale-content {
+    transform: scale(0.8);
+  }
+}
+
+/* Device pixel ratio adjustments */
+@media screen and (-webkit-min-device-pixel-ratio: 2), 
+       screen and (min-resolution: 192dpi) {
+  .desktop-container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  
+  /* Adjust spacing for high DPI displays */
+  .high-dpi-adjust {
+    gap: calc(0.75rem * var(--dpi-scale, 1)) !important;
+  }
+}
+
+/* Specific adjustments for AIWorkerStep component */
+.ai-worker-container {
+  --dpi-scale: 1;
+  --gap-size: 2rem;
+}
+
+/* Specific class for controlling the gap between worker selection and chat */
+.ai-worker-columns-gap {
+  gap: var(--gap-size) !important;
+}
+
+/* Adjust gap based on screen width */
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .ai-worker-container {
+    --gap-size: 4rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .ai-worker-container {
+    --gap-size: 6rem;
+  }
+}
+
+/* Adjust for different operating systems */
+@supports (-webkit-touch-callout: none) {
+  /* iOS/macOS specific adjustments */
+  .ai-worker-container {
+    --dpi-scale: 1.2;
+  }
+  
+  /* Ensure proper spacing on macOS/iOS */
+  .ai-worker-columns-gap.xl\:gap-\[180px\] {
+    gap: calc(180px * var(--dpi-scale)) !important;
+  }
+  
+  .ai-worker-columns-gap.lg\:gap-\[6vw\] {
+    gap: calc(6vw * var(--dpi-scale)) !important;
+  }
+}
+
+@supports (-moz-appearance: none) {
+  /* Firefox/Linux specific adjustments */
+  .ai-worker-container {
+    --dpi-scale: 0.9;
+  }
+  
+  /* Adjust gap for Firefox/Linux */
+  .ai-worker-columns-gap {
+    gap: calc(var(--gap-size) * var(--dpi-scale)) !important;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  /* Edge/Windows specific adjustments */
+  .ai-worker-container {
+    --dpi-scale: 0.85;
+  }
+  
+  /* Adjust gap for Edge/Windows */
+  .ai-worker-columns-gap {
+    gap: calc(var(--gap-size) * var(--dpi-scale)) !important;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Versión móvil */
+.logos-mobile {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos-mobile:before,
+.logos-mobile:after {
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos-mobile:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos-mobile:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos-mobile .logos-slide {
+  animation: 25s slide infinite linear;
+}
+
+/* Chat message styles */
+.chat-message {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Header responsive styles */
+.header-container {
+  height: 120px;
+}
+
+@media (min-width: 640px) {
+  .header-container {
+    height: 130px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    height: 140px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    
+  }
+}
+
+/* Adjust header elements for different display densities */
+@supports (-webkit-touch-callout: none) {
+  /* iOS/macOS specific adjustments - keep original size for retina displays */
+  .header-container {
+    
+  }
+  
+  .header-element {
+    /* Keep original positioning for retina displays */
+  }
+}
+
+@supports (-moz-appearance: none) {
+  /* Firefox/Linux specific adjustments */
+  .header-element {
+    /* Adjust positioning for non-retina displays */
+    top: calc(var(--top-position, 30px) * 0.9) !important;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  /* Edge/Windows specific adjustments */
+  .header-element {
+    /* Adjust positioning for non-retina displays */
+    top: calc(var(--top-position, 30px) * 0.85) !important;
+  }
+}
+
+/* Adjust header for different screen densities */
+@media screen and (max-resolution: 110dpi) {
+  .header-container {
+    height: 110px;
+  }
+  
+  .header-element {
+    --top-position: 25px;
+  }
+}
+
+@media screen and (min-resolution: 111dpi) and (max-resolution: 160dpi) {
+  .header-container {
+    height: 120px;
+  }
+  
+  .header-element {
+    --top-position: 30px;
+  }
+}
+
+/* Device pixel ratio specific adjustments */
+@media screen and (-webkit-min-device-pixel-ratio: 2), 
+       screen and (min-resolution: 192dpi) {
+  /* For high DPI displays like Retina, keep original size */
+  .header-container {
+    
+  }
+  
+  .header-element {
+    --top-position: 60px;
+  }
+}
+
+/* Header display type specific styles */
+.high-density-display {
+  /* Styles optimized for high-density displays like Retina */
+  
+}
+
+.high-density-display .header-element {
+  /* Original positioning works well on Retina displays */
+}
+
+.standard-display {
+  /* Styles optimized for standard density displays */
+  height: 120px;
+}
+
+.standard-display .header-element {
+  /* Adjust positioning to prevent overlap with content */
+  top: calc(var(--top-position, 30px) * 0.9) !important;
+}
+
+/* Adjust z-index for header elements on smaller screens */
+@media (max-width: 1024px) {
+  .standard-display .header-element {
+    z-index: 30 !important; /* Ensure header elements stay above content */
+  }
+}
+
+/* Adjust header for different viewport widths on standard displays */
+@media (max-width: 768px) {
+  .standard-display {
+    height: 100px;
+  }
+  
+  .standard-display .header-element {
+    --top-position: 20px;
+  }
+}
+
+/* Device pixel ratio specific adjustments */
+@media screen and (-webkit-min-device-pixel-ratio: 2), 
+       screen and (min-resolution: 192dpi) {
+  /* For high DPI displays like Retina, keep original size */
+  .header-container {
+    
+  }
+  
+  .header-element {
+    --top-position: 60px;
+  }
+}

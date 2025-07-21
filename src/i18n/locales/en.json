@@ -1,0 +1,809 @@
+{
+  "header": {
+    "backButton": "Back to Previous Step",
+    "language": "English"
+  },
+  "welcome": {
+    "title": "Welcome to the",
+    "titleHighlight": "Evolution",
+    "subtitle": "It's time to create your own",
+    "subtitleHighlight": "AI-Workers",
+    "subtitleContinue": "that adapt to your business, each one trained for specific tasks.",
+    "joinCompanies": "Join these visionary companies:",
+    "createYourOwn": "Create your own",
+    "aiEmployee": "AI-Worker",
+    "websitePlaceholder": "Company website",
+    "emailPlaceholder": "Company email",
+    "getButton": "Get Darwin AI today",
+    "errors": {
+      "websiteRequired": "Website is required",
+      "websiteInvalid": "Invalid website format",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "emailBusiness": "Please use a corporate email"
+    }
+  },
+  "form": {
+    "title": "Create your own",
+    "aiEmployee": "AI-Worker",
+    "usingData": "We are using data from:",
+    "companyName": "Company Name",
+    "industry": "Industry",
+    "companySize": "Company Size",
+    "meetButton": "Meet the AI-Workers",
+    "errors": {
+      "companyNameRequired": "Company name is required",
+      "companyNameInvalid": "Only alphanumeric characters are allowed",
+      "industryRequired": "Please select a valid industry",
+      "companySizeRequired": "Please select a valid company size"
+    },
+    "companySizes": {
+      "1-10": "1-10 employees",
+      "11-50": "11-50 employees",
+      "51-200": "51-200 employees",
+      "201-500": "201-500 employees",
+      ">500": "More than 500 employees"
+    }
+  },
+  "worker": {
+    "title": "Select",
+    "aiWorker": "AI Worker",
+    "subtitle": "Choose the AI-Worker that best fits your needs",
+    "specialist": {
+      "M": "Specialist",
+      "F": "Specialist"
+    },  
+    "continue": "Continue with",
+    "chats": {
+      "pdf": {
+        "bruno": {
+          "realEstate": "Tonga Project",
+          "automotive": "Toyota_Corolla_2022_Info.pdf",
+          "education": "Course Content",
+          "insurance": "Comprehensive Coverage Plan for Corolla",
+          "services": "Accounting Advisory Plans",
+          "retail": "Livplus Sofa Model - Features and Pricing"
+        },
+        "sophia": {
+          "retail": "Woodline Coffee Table - Photos, Dimensions and Price",
+          "education": "Web Analytics Course Syllabus",
+          "services": "Tax Planning Service",
+          "healthcare": "Professional Facial Cleansing"
+        },
+        "alba": {
+          "automotive": "Financing Options",
+          "realEstate": "Apartment Details and Financing Options",
+          "education": "UX/UI Course - March 15",
+          "insurance": "Insurance Plans and Benefits",
+          "retail": "Livplus Sofa Model"
+        }
+      },
+      "contactCard": {
+        "message": "Message"
+      },
+      "links": {
+        "bruno": {
+          "education": "https://getdarwin.ai/en/courses/negotiation",
+          "retail": "https://payments.darwin.ai/en/livplus-sofa"
+        },
+        "alba": {
+          "retail": "https://payments.darwin.ai/en/livplus-sofa"
+        },
+        "lucas": {
+          "education": "https://courses.darwin.ai/en/advanced-marketing/monthly-payment",
+          "retail": "https://shop.darwin.ai/en/furniture/monthly-payment",
+          "healthcare": "https://darwin-healthcare.com/en/dermatology/monthly-payment",
+          "services": "https://darwin-advisors.com/en/monthly-payment",
+          "insurance": "https://darwin-insurance.com/en/auto/monthly-payment"
+        }
+      },
+      "bruno": {
+        "realEstate": {
+          "0": "Hello, Tomás! I'm Bruno, from Darwin. 🏢",
+          "1": "Are you still interested in a one-bedroom apartment near Belgrano? We have a new project that fits your previous search (with pool and gym). 🏊‍♂️🏋️‍♀️",
+          "3": "Sure! Here's the PDF with all the details:",
+          "5": "Would you like to schedule a visit?",
+          "6": "Yes, I'd like to visit. When could we coordinate?",
+          "7": "I have availability tomorrow at 1:00 PM. Does that time work for you? 🗓️🕐",
+          "8": "Tomorrow at 1:00 PM is perfect!",
+          "9": "Great! Ignacio will meet you for the visit tomorrow.",
+          "11": "Could you share your email address so I can send you a reminder? 📧",
+          "12": "Tomas@gmail.com",
+          "13": "Invitation sent to your Google calendar! ✅ I'll send you a reminder one hour before your visit. See you tomorrow! 👋✨"
+        },
+        "automotive": {
+          "0": "Hello, Tomás! I'm Bruno, from Darwin.",
+          "1": "Are you still looking for a used Toyota? We just got a 2022 Toyota Corolla in stock.",
+          "3": "Of course! It's a Toyota Corolla XEI 2022, with 30,000 km and full service history.",
+          "4": "Here's a PDF with all the relevant information: specs, price, and financing options.",
+          "6": "And regarding your other question: we offer financing plans, and you can also trade in your current vehicle.",
+          "7": "Sounds good! I'd like to see it in person and take a test drive. When could we schedule a visit?",
+          "8": "We have availability tomorrow at 3:00 PM at our Av. Cabildo branch. Does that time work for you? 🕒",
+          "9": "Yes, tomorrow at 3:00 PM works perfectly!",
+          "10": "Great! Ignacio {contact_card} will meet you tomorrow at 3 PM at the dealership.",
+          "12": "Could you share your email so I can send you the visit details and a reminder? 📧",
+          "13": "Tomás@gmail.com",
+          "14": "Invitation sent! I'll send you a reminder one hour before the appointment.",
+          "15": "See you tomorrow! 🚗💨"
+        },
+        "education": {
+          "0": "Hello, Tomás! I'm Bruno from Darwin Academy.",
+          "1": "A while ago, you were interested in our Negotiation course, and I wanted to let you know we are launching it again next week. Are you interested?",
+          "3": "Great! Here's the detailed course program.",
+          "5": "In this document, you'll find modules, methodology, and instructors.",
+          "6": "I'm interested! What's the price, and where can I sign up?",
+          "7": "You can sign up directly through this link:",
+          "9": "The course costs $900, including access to exclusive materials and live sessions with experts.",
+          "10": "I've already completed the registration! Thank you!",
+          "11": "Perfect, Tomás! 🎉",
+          "12": "Registration received! If you have any questions before the course begins, I'll be here to help.",
+          "13": "See you in class! 🚀"
+        },
+        "insurance": {
+          "0": "Hello, Tomás! I'm Bruno from Darwin Insurance. 😊",
+          "1": "Are you still looking for coverage for your 2022 Corolla? We have a new option that might interest you based on your previous inquiry.",
+          "3": "Sure, Tomás. Here's the PDF with all the plan details.",
+          "5": "Perfect, I'd like a meeting to review the premium and benefits. When could we schedule it?",
+          "6": "I'm available tomorrow at 1:00 PM. Does that time work for you? 🗓️",
+          "7": "Perfect, tomorrow at 1:00 PM works great!",
+          "8": "Great 🚗 Ignacio from our sales team will meet you tomorrow at 1:00 PM to guide you better.",
+          "10": "Could you share your email so I can send you a reminder?",
+          "11": "Yes, tomas@gmail.com",
+          "12": "Invitation sent! I'll send you a reminder one hour before the meeting.",
+          "13": "See you tomorrow, have a great day! ✨"
+        },
+        "services": {
+          "0": "Hello, Tomás! I'm Bruno from Darwin.",
+          "1": "You contacted us some time ago about your tax return. As tax season is approaching, I wanted to know if you'd like us to handle your return again this year. 📅📊",
+          "3": "Of course, Tomás! Here's a PDF with details of our accounting advisory plans for the annual tax review.",
+          "5": "Perfect. When could we schedule a meeting to go over everything together?",
+          "6": "I'm available tomorrow at 4:00 PM. Does that time work for you? 🗓️🕓",
+          "7": "Yes, tomorrow at that time works great for me.",
+          "8": "Great! Ignacio from our accounting team will meet with you tomorrow at 4:00 PM. 👨‍💼",
+          "10": "Could you share your email so I can send you the invitation?",
+          "11": "Sure, tomás@gmail.com",
+          "12": "Invitation sent! I'll send you a reminder one hour before the meeting. ✅",
+          "13": "See you tomorrow! Have a great day! ✨"
+        },
+        "healthcare": {
+          "0": "Hello, Tomás! I'm Bruno from Darwin Health. 🩺",
+          "1": "A while ago, you had a dermatological treatment with us. Would you like to schedule your annual check-up?",
+          "3": "Sure, Tomás! The cost is $30,000. 💵",
+          "4": "Your previous appointment was with Dr. Ruiz. Would you like to schedule your follow-up with him again?",
+          "5": "Perfect, Dr. Ruiz is fine. When can we schedule the appointment?",
+          "6": "Also, do you accept health insurance?",
+          "7": "Yes, Tomás! We accept health insurance. I have on file that your insurance is OSED 410, covering 50% of the consultation fee. 📑",
+          "8": "We have availability tomorrow at 4:00 PM. Does that time work for you? 🗓️🕓",
+          "9": "Yes! I have OSED 410, that's great.",
+          "10": "Tomorrow at 4:00 PM works perfectly!",
+          "11": "Awesome! Dr. Ruiz will see you tomorrow at 4:00 PM in his office. 👨‍⚕️",
+          "12": "The address is Calle de Luchana 20, second floor. 📍",
+          "13": "Great! Thanks!",
+          "14": "Thanks, Tomás! I'll send you a reminder an hour before your appointment. ⏰",
+          "15": "See you tomorrow, have a great day!"
+        },
+        "retail": {
+          "0": "Hi, Ana! I'm Bruno from Darwin Retail. 🛋️",
+          "1": "A while back, you asked us about a 4-seat sofa for your living room. Are you still looking for that option?",
+          "3": "Of course, Ana! Here's a PDF with all the details about the Livplus sofa model.",
+          "5": "If you purchase today, we can deliver it on Friday, so you can enjoy it this weekend! 🚚✨ Would you like to move forward?",
+          "6": "Great! Is it possible to pay in installments?",
+          "7": "Yes! We offer installment payments or a special discount if you pay upfront. 💳💰",
+          "8": "I'm sending you the payment link right here so you can complete the purchase easily.",
+          "10": "Let me know once you've completed it, and we'll coordinate the delivery.",
+          "11": "Done. I just completed the payment.",
+          "12": "Payment received! ✅",
+          "13": "Your sofa will be delivered this Friday. If you have any questions, I'm here to help.",
+          "14": "Enjoy your new sofa! 👋✨"
+        }
+      },
+      "alba": {
+        "automotive": {
+          "0": "Hello! I'm looking for a used car, can you help me?",
+          "1": "Hi, Tomás! I'm Alba, from Darwin's dealership.",
+          "2": "Of course! Are you looking for a sedan, SUV, or hatchback?",
+          "4": "Got it! An economical and comfortable sedan. Here's an option for you:",
+          "6": "It's a 2022 Toyota Corolla XEI, with up-to-date maintenance. Would you like to schedule a visit to see it?",
+          "7": "Yes, could I come by tomorrow?",
+          "8": "We have availability tomorrow at 3:00 PM for a test drive.",
+          "9": "To better assist you, would you prefer to pay cash, finance it, or trade in another car as part of the payment?",
+          "10": "I'd like to finance it. What financing options do you have?",
+          "11": "Here are the financing options:",
+          "13": "Could you please provide your email so I can send you the confirmation and reminder?",
+          "14": "Tomas@gmail.com",
+          "15": "Perfect! Ignacio from our team will meet you tomorrow at 3:00 PM.",
+          "17": "I've sent you the invitation by email and will text you a reminder an hour before your visit. See you tomorrow! 🚗✨"
+        },
+        "realEstate": {
+          "0": "Hi! I'm looking for an apartment in Palermo, can you help me?",
+          "1": "Hi, Tomás! I'm Alba, from Darwin Real Estate.",
+          "2": "Of course! Are you looking for a studio apartment, one-bedroom, or something larger?",
+          "4": "Do you have financing options for the apartment purchase?",
+          "5": "Sure! We have just the right apartment for you. It's a one-bedroom apartment. Here's a PDF with more information about the apartment and financing options.",
+          "7": "Would you like to schedule a visit?",
+          "8": "Yes, could I come by tomorrow?",
+          "9": "We have availability tomorrow at 3:00 PM for a viewing.",
+          "10": "Could you provide your email so I can send you the confirmation and reminder?",
+          "11": "Tomas@gmail.com",
+          "13": "Perfect! Ignacio from our team will meet you tomorrow at 3 PM.",
+          "14": "I've sent the invitation by email and will text you a reminder an hour before your visit. See you tomorrow! 🏡✨"
+        },
+        "education": {
+          "0": "Hi! I'm interested in the UX/UI course. When does it start?",
+          "1": "Hi, Tomás! 😊 The UX/UI course starts on March 15th. It's an intensive program designed for you to learn everything from fundamentals to practical applications.",
+          "2": "Great. Do you have a document so I can see the modules and duration of the course?",
+          "3": "Of course! The course lasts 8 weeks and covers modules on interface design, usability, prototyping, and tools like Figma. Here's a PDF with all the details. 📄👇",
+          "5": "Perfect. What's the price and where can I enroll?",
+          "6": "The course costs $900. You can enroll directly at the following link:",
+          "8": "If you have any other questions, I'm here to help! 😊",
+          "9": "I've completed the registration! Thank you!",
+          "10": "Perfect, Tomás! 🎉",
+          "11": "Registration received! If you have any questions before the course begins, I'm here to help.",
+          "12": "See you in class! 🚀"
+        },
+        "services": {
+          "0": "Hi! I'm looking for a lawyer to help me with a contract issue. Could you guide me?",
+          "1": "Hi, Tomás! I'm Alba, from Darwin. 😊⚖️",
+          "2": "Of course! Could you tell me a bit more about your situation? 📝",
+          "4": "Perfect! 👍",
+          "5": "What's the timeframe for this commercial contact? Is this something you'd like to resolve within the next week, or is it less urgent? ⏰📅",
+          "6": "I'd like to move forward as soon as possible. Could I have a meeting tomorrow?",
+          "7": "Great! We have availability tomorrow at 4:00 PM for an initial meeting. 🗓️🕓",
+          "8": "Could you please share your email address so I can send you the confirmation?",
+          "9": "My email is tomas@gmail.com",
+          "10": "Invitation sent! ✅ Tomorrow you'll meet with Maria, one of our specialists, at 4:00 PM to address all your concerns.",
+          "12": "I'll send you a reminder one hour before the meeting. See you tomorrow! 👋"
+        },
+        "healthcare": {
+          "0": "Hello, I'd like to schedule an appointment for dermatology. Could you help me?",
+          "1": "Hello Ana! I'm Alba from Dermo Darwin Clinic. 😊",
+          "2": "Of course, what day would you prefer?",
+          "4": "Perfect! 👍 We have availability next Wednesday with Dr. Ortiz.",
+          "5": "Could you tell me a bit about your current concern or issue, so I can make a note before your visit?",
+          "6": "I have a rash on my arm that appears occasionally, and this time it has spread more than usual. I want Dr. Ortiz to check it out.",
+          "7": "Understood. I'll reserve your appointment for Wednesday at 3:00 PM with Dr. Ortiz. 📅🕒",
+          "8": "Could you please provide your email so I can send you the confirmation and a reminder?",
+          "9": "Sure, it's ana@gmail.com",
+          "10": "Done! I just sent you the email. ✅",
+          "11": "I'll remind you one hour before your appointment.",
+          "12": "If you have any other questions, I'm here to help. See you soon! 👋✨"
+        },
+        "insurance": {
+          "0": "Hello, I'd like to get a quote for car insurance. Could you help me?",
+          "1": "Hi, Ana! I'm Alba from Darwin Insurance. 🚗",
+          "2": "Of course! Could you tell me the make, model, and year of your car?",
+          "4": "Got it! A 2022 Corolla.",
+          "5": "Would you prefer basic coverage or something more comprehensive that includes third-party damages, theft, and roadside assistance?",
+          "6": "I'd like comprehensive coverage, for peace of mind.",
+          "7": "Great! We have several options that match your needs. I'm sending you a PDF here in the chat with detailed information about the plans and their benefits. 📄",
+          "9": "Would you like to schedule a call to go over these options together and clarify any questions?",
+          "10": "Yes, please! Could we have the call tomorrow at 4:00 PM?",
+          "11": "Absolutely! I've scheduled our call for tomorrow at 4:00 PM. I'll send you a reminder one hour before. 📅",
+          "13": "You'll be speaking with Sara from our team. See you tomorrow! 👋✨"
+        },
+        "retail": {
+          "0": "Hello, I'm looking for a sofa for 4 people.",
+          "1": "Hello, Ana! I'm Alba from Darwin. Could you tell me a bit more about the style or the space where the sofa will go?",
+          "3": "For the living room, I think this model might interest you. I'm sending a PDF right here with the specifications and price.",
+          "5": "Ana, if you make the purchase today, we can deliver it this Friday so you can enjoy it during the weekend. Would you like to move forward?",
+          "6": "Can I pay in installments?",
+          "7": "Yes! We offer installment payments or a special discount if you pay in full. I'll send you a link right here so you can easily make the payment.",
+          "9": "Let me know once you've completed it, and we'll coordinate the delivery.",
+          "10": "Done! I've just completed the payment.",
+          "11": "Payment received! ✅",
+          "12": "I confirm the sofa will be delivered this Friday. If you need anything else, I'm here! 👋✨",
+          "13": "Enjoy your new sofa!"
+        }
+      },
+      "lucas": {
+        "automotive": {
+          "0": "Hi, Tomás! 😊 I wanted to remind you that the monthly installment for your savings plan was due this week.",
+          "1": "Do you have an estimated date when you'll be able to make the payment?",
+          "2": "I don't think I'll be able to pay this week. What happens if I'm late with the payment?",
+          "3": "If you make the payment within the next week, we can make an exception and not charge interest for the delay.",
+          "4": "Starting from the second week past due, interest fees will start to apply.",
+          "5": "That means you have until Friday next week at 6:00 PM, or interest will be applied.",
+          "6": "How much is the penalty?",
+          "7": "Starting from the second overdue week, a daily interest of $5,000 will apply. From the third week, the daily interest increases to $7,500.",
+          "8": "Got it. I'll make the payment next week.",
+          "9": "Perfect, Tomás! I'll be here if you need anything else.",
+          "10": "Let me know if you need me to resend the payment details or anything else.✅",
+          "11": "Thanks for your time and for being part of our savings plan. 🚗✨"
+        },
+        "realEstate": {
+          "0": "Hi, Tomás! 😊 I just wanted to remind you that this week your monthly installment for your apartment is due.",
+          "1": "Do you have an estimated date when you'll be able to make the payment?",
+          "2": "I don't think I'll be able to pay this week. What happens if I'm late with the payment?",
+          "3": "If you make the payment within the next week, we can make an exception and not charge interest for the delay.",
+          "4": "Starting from the second week past due, interest fees will start to apply.",
+          "5": "That means you have until Friday next week at 6:00 PM, or interest will be applied.",
+          "6": "How much is the penalty?",
+          "7": "Starting from the second overdue week, a daily interest of $5,000 will apply. From the third week, the daily interest increases to $7,500.",
+          "8": "Got it. I'll make the payment next week.",
+          "9": "Perfect, Tomás! I'll be here if you need anything else.",
+          "10": "Let me know if you need me to resend the payment details or anything else.✅",
+          "11": "Thanks for your time and for being part of our financing plan. 🏡✨"
+        },
+        "education": {
+          "0": "Hi, Tomás! 😊 I wanted to remind you that your monthly course payment is due this week.",
+          "1": "You can use this link to make your monthly course payment: https://courses.darwin.ai/en/advanced-marketing/monthly-payment",
+          "jsx": {
+            "1": {
+              "0": "You can use this link to make your monthly course payment: "
+            }
+          },
+          "2": "I don't think I'll be able to pay this week. What happens if I'm late with the payment?",
+          "3": "If you make the payment within the next week, we can make an exception and waive any late fees.",
+          "4": "Starting from the second week past due, interest fees will start to apply.",
+          "5": "That means you have until Friday next week at 6:00 PM, or interest will be applied.",
+          "6": "How much is the penalty?",
+          "7": "Starting from the second overdue week, a daily interest of $5,000 will apply. From the third week, the daily interest increases to $7,500.",
+          "8": "Do you have an estimated date when you'll be able to make the payment?",
+          "9": "Got it. I'll make the payment next week.",
+          "10": "Perfect, Tomás! I'll be here if you need anything else.",
+          "11": "Don't hesitate to reach out if you need the payment details resent or have any other questions.✅",
+          "12": "Thanks for your time, and enjoy your course! 🎓✨"
+        },
+        "retail": {
+          "0": "Hi, Tomás! I wanted to remind you that the monthly installment for your sofa was due this week. 🛋️",
+          "1": "Here's the payment link for your monthly installment: https://shop.darwin.ai/en/furniture/monthly-payment",
+          "jsx": {
+            "1": {
+              "0": "Here's the payment link for your monthly installment: "
+            }
+          },
+          "2": "I don't think I'll be able to pay this week. What happens if I'm late with the payment?",
+          "3": "If you make the payment within the next week, no surcharges will be applied as an exception. 😊",
+          "4": "From the second week of delay, interest will begin to apply. You have until next Friday at 6:00 PM to avoid penalties.",
+          "5": "How much is the penalty?",
+          "6": "From the second week, there's a daily surcharge of $5000. From the third week onwards, that surcharge increases to $7500 per day. ⚠️",
+          "7": "Got it. I'll make the payment next week.",
+          "8": "Perfect, Tomás!",
+          "9": "Feel free to message me if you need the payment details again or any other info.✅",
+          "10": "Thanks again for choosing our sofa. Enjoy it! 🛋️✨"
+        },
+        "healthcare": {
+          "0": "Hi, Tomás! Just wanted to remind you that the monthly installment of your dermatological treatment plan was due this week. 😊",
+          "1": "Here's the link so you can make the payment: https://darwin-healthcare.com/en/dermatology/monthly-payment",
+          "jsx": {
+            "1": {
+              "0": "Here's the link so you can make the payment: "
+            }
+          },
+          "2": "I don't think I'll be able to pay this week. What happens if I delay my payment?",
+          "3": "If you make the payment within the next week, we can make an exception and not apply late fees. 👍",
+          "4": "From the second week of delay, late payment interest will apply.",
+          "5": "You have until next Friday at 6:00 PM to avoid penalties.",
+          "6": "How much is the penalty?",
+          "7": "From the second week of delay, there will be a daily interest charge of $5000. From the third week, that amount increases to $7500 per day. ⚠️",
+          "8": "Do you have an estimated date when you could make the payment?",
+          "9": "Understood. I'll make the payment next week.",
+          "10": "Perfect, Tomás! I'll keep an eye out. 😊",
+          "11": "Feel free to contact me again if you need the payment details or any other information.",
+          "12": "Thank you for your time and for trusting our treatment. We hope it helps you greatly! ✨"
+        },
+        "services": {
+          "0": "Hi, Tomás! Just a reminder that your monthly payment for our advisory service was due this week. 😊",
+          "1": "Here's the link to complete your payment: https://darwin-advisors.com/en/monthly-payment",
+          "jsx": {
+            "1": {
+              "0": "Here's the link to complete your payment: "
+            }
+          },
+          "2": "I don't think I'll be able to pay this week. What happens if my payment is delayed?",
+          "3": "If you make the payment within the next week, we can make an exception and no late fees will be applied. ✅",
+          "4": "However, from the second week of delay, late payment interest will begin to apply.",
+          "5": "You have until next Friday at 6:00 PM; after that interest will be applied. ⚠️",
+          "6": "How much is the penalty?",
+          "7": "From the second week of delay, there's a daily interest charge of $5000. From the third week onwards, that interest increases to $7500 per day. 💰",
+          "8": "Do you have an estimated date when you could make the payment?",
+          "9": "Understood. I'll make the payment next week.",
+          "10": "Great, Tomás!",
+          "11": "Feel free to contact me if you need me to resend the payment details or any other information.✅",
+          "12": "Thanks for your time and for choosing our advisory service. Have a wonderful day! ✨"
+        },
+        "insurance": {
+          "0": "Hi, Tomás! Just wanted to remind you that your monthly car insurance payment was due this week. 🚗",
+          "1": "Here's the payment link for your monthly installment: https://darwin-insurance.com/en/auto/monthly-payment",
+          "jsx": {
+            "1": {
+              "0": "Here's the payment link for your monthly installment: "
+            }
+          },
+          "2": "I don't think I'll be able to pay this week. What happens if my payment is delayed?",
+          "3": "If you make the payment within the next week, we can make an exception and won't apply late fees. ✅",
+          "4": "Starting from the second week overdue, interest charges will apply.",
+          "5": "You have until 6 PM next Friday; otherwise, interest will be charged.",
+          "6": "How much is the penalty?",
+          "7": "From the second week of delay, there will be a daily interest charge of $5000. From the third week, that interest increases to $7500 per day. 💰⚠️",
+          "8": "Do you have an estimated date when you can make the payment?",
+          "9": "Understood. I'll make the payment next week.",
+          "10": "Perfect, Tomás! I'll keep an eye out. 😊",
+          "11": "Feel free to contact me if you need the payment details again or any additional information.",
+          "12": "Thanks for your time and for insuring your car with us. Drive safe! 🚗✨"
+        }
+      },
+      "eva": {
+        "retail": {
+          "0": "Hi, Tomás! 😊 I'm Eva, from the Darwin Customer Experience team.",
+          "1": "I wanted to ask how your experience buying your sofa with us went.",
+          "2": "On a scale from 1 to 10, how would you rate your experience?",
+          "3": "Hi Eva! Honestly, everything went great. I'd give it a 9.",
+          "4": "That's wonderful to hear, Tomás! 😃",
+          "5": "If there's anything we could improve to make your next experience a perfect 10, please let me know. We love getting your feedback!",
+          "6": "In general, everything was excellent. The only thing I'd improve is the delivery speed—it could have been a bit faster.",
+          "7": "Thank you for your feedback, Tomás! We'll share that with our logistics team to improve delivery times.",
+          "8": "Thanks again for trusting Darwin and helping us grow! 🛋️✨"
+        },
+        "automotive": {
+          "0": "Hi, Tomás! 😊 I'm Eva from Darwin's Customer Experience team.",
+          "1": "We'd love your feedback on your recent car delivery experience with us. ✨",
+          "2": "On a scale from 1 to 10, how would you rate the delivery process?",
+          "3": "Hello, Eva. Everything was very good. I would give it a 9.",
+          "4": "We love hearing that, Tomás! 😃",
+          "5": "If there's anything we could improve to make your experience a perfect 10, please let me know! Your feedback helps us improve.",
+          "6": "Overall, everything was perfect. The only improvement I'd suggest is having a slightly quicker delivery process.",
+          "7": "Thank you for your feedback, Tomás! We'll share that with our logistics team to improve delivery times.",
+          "8": "Thank you for trusting Darwin and helping us grow! 🚗 🚀"
+        },
+        "realEstate": {
+          "0": "Hi, Tomás! I'm Eva from Darwin. 😊",
+          "1": "We saw you recently visited one of our apartments, and we'd love to know about your experience.",
+          "2": "On a scale of 1 to 10, how would you rate your visit?",
+          "3": "Hi, Eva. Everything was great. I'd give it a 9.",
+          "4": "That's wonderful to hear, Tomás! 😃",
+          "5": "If there's anything we can improve to make your experience a perfect 10, please let me know. Your feedback matters a lot to us.",
+          "6": "Overall, everything was perfect. I'd only have liked the visit to be scheduled later, to see the natural light in the apartment during the afternoon.",
+          "7": "Very clear, Tomás! 🌞 We'll share your comment with our sales team so that in future visits we can take that preference into account.",
+          "8": "Thank you for helping us grow. We hope you find the perfect home with us! 🏡✨"
+        },
+        "healthcare": {
+          "0": "Hi, Tomás! I'm Eva from Darwin. We noticed that you recently completed your dermatological treatment with us. 😊",
+          "1": "On a scale of 1 to 10, how would you rate the service you received?",
+          "2": "Hello, Eva. Everything was excellent, I'd give it a 9.",
+          "3": "We love hearing that, Tomás! 😃",
+          "4": "If there's anything we could improve to make your experience a perfect 10, please let me know. Your feedback is very important to us.",
+          "5": "Perhaps you could offer earlier appointment times. Sometimes office-hours visits are a bit complicated for me.",
+          "6": "Thank you for your feedback, Tomás! ⏰ We'll share your suggestion with our team to evaluate new scheduling options.",
+          "7": "Thanks for trusting Darwin with your dermatological care. We're here whenever you need us! ✨"
+        },
+        "services": {
+          "0": "Hi, Tomás! I'm Eva from Darwin. I'd like to ask about your experience with our lawyers. 😊",
+          "1": "On a scale from 1 to 10, how would you rate the service and the outcome you received?",
+          "2": "Hi, Eva. It was very good. I'd give it an 8.",
+          "3": "We're happy with your rating, Tomás! 😃 If there's something we could improve to make it a 10, please let us know.",
+          "4": "I would've preferred if the team had arrived a bit earlier and explained things using less technical language.",
+          "5": "Thanks for your feedback, Tomás! I'll share your comments with our team. ✍️",
+          "6": "Thank you for helping us improve—we hope to see you again soon! ✨"
+        },
+        "education": {
+          "0": "Hi, Tomás! I'm Eva from Darwin. We saw that you've recently completed our Marketing course.",
+          "1": "On a scale from 1 to 10, how would you rate your overall experience?",
+          "2": "Hello, Eva! Everything was great, I would give it an 8.",
+          "3": "That's fantastic to hear, Tomás! 😃 What could we improve to make your experience a 10?",
+          "4": "Maybe include more practical examples during the classes. That would help apply the concepts right away. Also, provide access to tools with trial user accounts.",
+          "5": "Excellent suggestion! We'll work with our instructors to include more practical examples. 💡",
+          "6": "Thank you for trusting Darwin for your professional development. Wishing you great success applying what you've learned! 🚀✨"
+        },
+        "insurance": {
+          "0": "Hi, Tomás. I'm Eva from Darwin. We noticed you recently signed up for our auto insurance policy.",
+          "1": "On a scale of 1 to 10, how would you rate the ease of the sign-up process?",
+          "2": "Hi, Eva. It was quite easy, I'd give it an 8.",
+          "3": "Great! We're glad to hear it was easy. What could we improve to earn a higher score?",
+          "4": "Maybe offering more payment options so I can choose the one that suits me best. I would've liked options like bank transfer or even crypto payments.",
+          "5": "Thanks for your feedback, Tomás, we truly appreciate your suggestion and will share it with our team to keep improving our service.",
+          "6": "Thanks for choosing Darwin to insure your car. We're here to help! 😊"
+        }
+      },
+      "sophia": {
+        "automotive": {
+          "0": "Hi Tomás! 😊 The first anniversary of your car purchase is approaching, and we want to remind you that it's a good time for the first service. Would you like to schedule an appointment to have it done with us?",
+          "1": "Hi, Sophia! What does the first scheduled maintenance include, and how much does it cost?",
+          "2": "The first service includes:\n\n🔹 Oil change 🛢️\n\n🔹 Fuel and air filter replacement 🏎️\n\n🔹 Car alignment ⚙️",
+          "jsx": {
+            "2": {
+              "0": "The first service includes:",
+              "3": "🔹 Oil change 🛢️",
+              "6": "🔹 Fuel and air filter replacement 🏎️",
+              "9": "🔹 Wheel alignment ⚙️"
+            }
+          },
+          "3": "The cost of this service is $250.",
+          "4": "Perfect. Do you have availability for next Tuesday?",
+          "5": "Yes! We have availability on Tuesday at 1:00 PM.",
+          "6": "Could you provide your email to schedule the appointment and send you a confirmation?",
+          "7": "Tomas@gmail.com",
+          "8": "Thank you, Tomás! I've sent you the appointment details by email. I'll also send you a reminder one hour before your appointment.",
+          "9": "Thank you for trusting us, Tomás! 🚗✨"
+        },
+        "realEstate": {
+          "0": "Hi, Tomás! I'm Sophia from Darwin. 🏡",
+          "1": "It's almost been a year since you bought your apartment with us, and that's why we're offering a special annual home check-up package. We also have a special hardwood floor treatment available. Would you be interested?",
+          "2": "Hi Sophia! What does the inspection include and what's the total cost?",
+          "3": "The annual check-up includes:\n\n- Inspection of electrical installations ⚡\n\n- Review of plumbing and fixtures 🚰\n\n- Evaluation of wall conditions 🧱",
+          "jsx": {
+            "3": {
+              "0": "The annual check-up includes:",
+              "3": "🔹 Electrical installations inspection ⚡",
+              "6": "🔹 Plumbing and faucet check-up 🚰",
+              "9": "🔹 Wall condition evaluation 🧱"
+            }
+          },
+          "4": "The total cost is $30.",
+          "5": "We also offer a special hardwood floor treatment for an additional cost. Would you like to include it?",
+          "6": "I'm interested! Can we schedule both services for next Tuesday?",
+          "7": "Yes, we have availability on Tuesday at 1:00 PM. 🗓️🕐",
+          "8": "Could you share your email address so I can send you the confirmation and a reminder?",
+          "9": "Sure, my email is tomas@gmail.com",
+          "10": "Invitation sent! ✅",
+          "11": "I'll send you a reminder one hour before the appointment.",
+          "12": "Have a great day! See you soon! ✨"
+        },
+        "retail": {
+          "0": "Hi Ana! I'm Sophia from Darwin Retail. 😊",
+          "1": "A few weeks ago you purchased the Livplus sofa from us. We wanted to let you know that we're now offering a matching coffee table, ideal to complete your living room. Would you like to know more?",
+          "2": "Hi Sophia! Yes, tell me more about that coffee table.",
+          "3": "Great! The Woodline coffee table matches perfectly with the Livplus. It has a solid wood structure, minimalist design, and storage space.",
+          "5": "If you purchase today, we can deliver it along with the accessory package this Friday. 🚚✨ Would you like to move forward?",
+          "6": "Yes, I'm interested. Can I pay in installments?",
+          "7": "Yes! We offer installment payments or a special discount for full upfront payment. 💳💰",
+          "8": "Here's the payment link so you can easily complete your purchase.",
+          "10": "Let me know once you've completed it and we'll coordinate the delivery.",
+          "11": "Done, I just completed the payment.",
+          "12": "Perfect, payment received! ✅",
+          "13": "The table will be delivered this Friday along with the rest of your order. If you have any questions, I'm here to help.",
+          "14": "Thanks again for trusting us, Ana! Enjoy it! 👋✨"
+        },
+        "education": {
+          "0": "Hi, Ana! I'm Sophia from Darwin. 😊",
+          "1": "A while ago, you took our digital marketing course. We're launching a new Analytics course, and I wanted to check if you'd be interested!",
+          "2": "Hi Sophia! Yes, could you give me more information about the course?",
+          "3": "Great! It's a four-module course, where you'll learn to create dashboards and interpret key metrics to optimize your campaigns. 📊✨",
+          "4": "Here's a PDF with the syllabus and more details: ",
+          "6": "Sounds very interesting !When does registration close?",
+          "7": "Registrations close next week. 🗓️",
+          "8": "Would you like a reminder before the enrollment closes?",
+          "9": "Yes, please!",
+          "10": "Perfect, Ana! I'll reach out again in a few days with a reminder. 📅",
+          "11": "If you have any other questions, feel free to ask. We're in touch! 😊✨"
+        },
+        "services": {
+          "0": "Hi, Ana! I'm Sophia from Darwin. 😊 A while ago, you used our accounting advisory service, and now we have a complementary tax planning service to help you optimize your taxes. Would you like to know more?",
+          "1": "Hi, Sophia. Yes, that sounds interesting. Tell me more.",
+          "2": "The tax planning service helps you organize your financial statements and find opportunities to optimize your taxes. 📈✨",
+          "3": "Would you like me to send you a detailed document with more information?",
+          "4": "Yes, please! When could we schedule a brief meeting to discuss it better?",
+          "6": "We have availability next Monday at 4:00 PM. Does that time work for you? 📅🕓",
+          "7": "Perfect!",
+          "9": "Great, Ana! Your meeting with Mr. Vermonte is confirmed for Monday at 4:00 PM. 👨‍💼📌",
+          "10": "Thank you, see you on Monday!"
+        },
+        "healthcare": {
+          "0": "Hi, Ana! A while ago, you had a dermatological treatment with us. I wanted to let you know we're currently offering a facial cleansing service. Would you like more information? 😊",
+          "1": "Hi, Sophia. Yes, that sounds interesting! Could you tell me more?",
+          "2": "Of course! It's a professional skin cleansing treatment. Here's a PDF with all the details:",
+          "4": "We have an exclusive discount for those who schedule for next week.",
+          "5": "Yes, I'm interested! What's your availability next week?",
+          "6": "We have availability on Monday at 4:00 PM. Does that time work for you? 🗓️🕓",
+          "7": "Yes, that's perfect.",
+          "8": "Great, Ana! I've already scheduled your appointment for Monday at 4:00 PM. I'll send you a reminder one hour before your appointment. ✉️✨",
+          "9": "See you soon!"
+        },
+        "insurance": {
+          "0": "Hello, Tomás! 😊 The first anniversary of your car purchase is approaching, and we want to remind you that it's a good time to review your insurance policy. Would you like us to review the options together to improve your coverage?",
+          "1": "Hello Sophia! What additional benefits could I get?",
+          "2": "We could include:\n\n🔹 Hail coverage\n\n🔹 Extended travel assistance\n\n🔹 New-for-old replacement in case of total theft",
+          "jsx": {
+            "2": {
+              "0": "We could include:",
+              "3": "🔹 Hail coverage",
+              "6": "🔹 Extended travel assistance",
+              "9": "🔹 New-for-old replacement in case of total theft"
+            }
+          },
+          "3": "And the best part is that for being a client with a good history, the increase would be minimal, only 5% additional to your current premium.",
+          "4": "Sounds interesting. Could we schedule a call for next week?",
+          "5": "Yes! We have availability on Tuesday at 2:00 PM.",
+          "6": "Would you like me to send you a comparison of your current policy vs. the improved one before the call?",
+          "7": "Yes, please. My email is Tomas@gmail.com",
+          "8": "Perfect Tomás, I just sent you the comparison. We'll talk on Tuesday at 2:00 PM.",
+          "9": "I'll send you a reminder one hour before the call. Thank you for trusting us! ✉️✨"
+        }
+      }
+    }
+  },
+  "schedule": {
+    "title": "Schedule a Meeting",
+    "subtitle": "Select a convenient time for your meeting",
+    "continue": "Confirm Meeting Time",
+    "scheduleHeader": "Schedule to try your",
+    "aiEmployee": "AI-Worker",
+    "discoverFeatures": "Discover how you can take full advantage of all its features",
+    "integration": {
+      "canIntegrate": "You can",
+      "integrateWith": {
+        "M": "integrate it",
+        "F": "integrate it"
+      },
+      "with": "with:"
+    },
+    "workerInfo": {
+      "bruno": {
+        "role": "Lead reactivation",
+        "quote": "I revive inactive leads, reconnect with your customers, and generate new opportunities.",
+        "abilities": {
+          "0": "I spark interest where others gave up",
+          "1": "I uncover hidden opportunities",
+          "2": "I ensure no follow-up is missed",
+          "3": "I schedule meetings and visits",
+          "4": "I keep your CRM spotless"
+        },
+        "integrations": ["whatsapp", "instagram", "imessage", "phone"],
+        "gender": "M",
+        "metrics": {
+          "0": {
+            "value": "3x",
+            "description": "More leads reactivated"
+          },
+          "1": {
+            "value": "+70%",
+            "description": "Higher response rate from previous leads"
+          },
+          "2": {
+            "value": "+50%",
+            "description": "Reactivated leads with personalized follow-ups"
+          }
+        }
+      },
+      "lucas": {
+        "role": "Collections",
+        "quote": "I talk to your customers to remind them of overdue payments and assist them with any issues.",
+        "abilities": {
+          "0": "Remind customers about overdue payments",
+          "1": "Provide flexible payment options",
+          "2": "Resolve payment-related inquiries",
+          "3": "Keep your CRM spotless",
+          "4": "Connect with customers on their preferred channels"
+        },
+        "integrations": ["whatsapp", "instagram", "phone"],
+        "gender": "M",
+        "metrics": {
+          "0": {
+            "value": "70%",
+            "description": "Success rate in recovering overdue payments"
+          },
+          "1": {
+            "value": "+50%",
+            "description": "Re-engagement of overdue customers"
+          },
+          "2": {
+            "value": "+30%",
+            "description": "On-time payment improvement"
+          }
+        }
+      },
+      "alba": {
+        "role": "Lead qualification",
+        "quote": "I interact with your customers, qualify them according to your criteria, and escalate cases that require a human.",
+        "abilities": {
+          "0": "I qualify your leads",
+          "1": "I answer questions about your catalog",
+          "2": "I manage your schedules",
+          "3": "I keep your CRM spotless",
+          "4": "I keep your customers informed"
+        },
+        "integrations": ["whatsapp", "instagram"],
+        "gender": "F",
+        "metrics": {
+          "0": {
+            "value": "5x",
+            "description": "More qualified leads"
+          },
+          "1": {
+            "value": "+75%",
+            "description": "Of your customer conversations resolved"
+          },
+          "2": {
+            "value": "<7 sec",
+            "description": "Response time to leads"
+          }
+        }
+      },
+      "eva": {
+        "role": "CX",
+        "quote": "I ask the right questions to measure customer satisfaction and drive positive reviews.",
+        "abilities": {
+          "0": "Effortlessly measure satisfaction",
+          "1": "Turn happy customers into brand promoters",
+          "2": "Solve issues before they escalate",
+          "3": "Keep your CRM updated with insights",
+          "4": "Engage on the right channels"
+        },
+        "integrations": ["whatsapp", "instagram", "phone"],
+        "gender": "F",
+        "metrics": {
+          "0": {
+            "value": "70%",
+            "description": "Customer response rate"
+          },
+          "1": {
+            "value": "+50%",
+            "description": "More customer feedback compared to standard methods"
+          },
+          "2": {
+            "value": "<1 min",
+            "description": "To escalate issues to your team"
+          }
+        }
+      },
+      "sophia": {
+        "role": "Post-sales",
+        "quote": "I help you reconnect with existing customers, offering products and increasing their loyalty.",
+        "abilities": {
+          "0": "Identify new opportunities with existing customers",
+          "1": "Simplify the purchasing process",
+          "2": "Effortlessly schedule follow-ups",
+          "3": "Keep your CRM organized",
+          "4": "Connect through your customers' favorite channels"
+        },
+        "integrations": ["whatsapp", "instagram", "imessage", "phone"],
+        "gender": "F",
+        "metrics": {
+          "0": {
+            "value": "4x",
+            "description": "More upsells to existing customers"
+          },
+          "1": {
+            "value": "+60%",
+            "description": "Customer engagement rate"
+          },
+          "2": {
+            "value": "+50%",
+            "description": "Revenue growth from upselling per customer"
+          }
+        }
+      }
+    },
+    "genderPrefixes": {
+      "M": "Specialist",
+      "F": "Specialist"
+    }
+  },
+  "contact": {
+    "title": "Watch your",
+    "aiEmployee": "AI-Worker",
+    "inAction": "in action",
+    "timeToMeet": "It's time to meet:",
+    "potentialInIndustry": "See their potential in the industry:",
+    "chooseContactMethod": "Choose how you would like to be contacted:",
+    "whatsapp": "WhatsApp",
+    "phoneCall": "Phone call",
+    "phoneNumber": "Phone number",
+    "contactMe": "Try"
+  },
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "industries": {
+      "automotive": "Automotive",
+      "education": "Education",
+      "realEstate": "Real Estate",
+      "retail": "Retail",
+      "healthcare": "Healthcare",
+      "insurance": "Insurance",
+      "services": "Services"
+    },
+    "roles": {
+      "leadsReactivation": "Reactivate Leads",
+      "collections": "Collections",
+      "leadsQualification": "Qualify Leads",
+      "postSales": "Post-Sales",
+      "customerExperience": "Customer Experience"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "es": "Spanish",
+    "pt": "Portuguese"
+  }
+} 
