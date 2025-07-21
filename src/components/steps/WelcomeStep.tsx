@@ -59,8 +59,9 @@ export const WelcomeStep: React.FC<WelcomeStepProps> = ({ onSubmit }) => {
 
   return (
     <div className="h-full w-full">
-      <div className="z-10 flex flex-col lg:flex-row w-full h-full items-center pl-[2.76vw] lg:gap-[6.93vw]">
-        <div className="w-full lg:w-auto flex items-center justify-center py-8 lg:py-0 hidden lg:flex">
+      {/* Desktop Layout */}
+      <div className="z-10 hidden lg:flex flex-col lg:flex-row w-full h-full items-center pl-[2.76vw] lg:gap-[6.93vw]">
+        <div className="w-full lg:w-auto flex items-center justify-center py-8 lg:py-0">
           <div 
             className="bg-white rounded-[31.61px] shadow-[0px_4px_30px_rgba(0,0,0,0.1)]"
             style={{ 
@@ -149,10 +150,10 @@ export const WelcomeStep: React.FC<WelcomeStepProps> = ({ onSubmit }) => {
           </div>
         </div>
 
-        {/* Welcome Form */}
+        {/* Desktop Form */}
         <div className="w-full lg:w-auto flex items-center lg:items-start justify-center lg:justify-start">
           <div 
-            className="hidden lg:block w-full"
+            className="w-full"
             style={{ maxWidth: '26.35vw' }}
           >
             <div className="mb-[5vh]">
@@ -275,6 +276,177 @@ export const WelcomeStep: React.FC<WelcomeStepProps> = ({ onSubmit }) => {
                 />
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile Layout */}
+      <div className="lg:hidden flex flex-col h-full w-full overflow-y-auto">
+        {/* Mobile Header */}
+        <div className="flex-shrink-0 px-6 pt-8 pb-4">
+          <img
+            src={darwinLogo}
+            alt="Darwin Logo"
+            className="w-32 h-auto"
+          />
+        </div>
+
+        {/* Mobile Content */}
+        <div className="flex-1 px-6 pb-8 space-y-6">
+          {/* Mobile Title */}
+          <div className="">
+            <h1 className="text-2xl sm:text-3xl font-medium leading-tight">
+              {t('welcome.title')} <span className="text-[#3A58ED] font-bold">{t('welcome.titleHighlight')}</span>
+            </h1>
+            
+            <p className="mt-4 text-lg font-medium text-gray-700">
+              {t('welcome.subtitle')} <span className="text-[#3A58ED] font-bold">{t('welcome.subtitleHighlight')}</span> {t('welcome.subtitleContinue')}
+            </p>
+          </div>
+
+          {/* Mobile Image */}
+          <div className="">
+            <img
+              src={welcomeImage}
+              alt="AI Evolution"
+              className="w-full h-auto object-cover rounded-2xl"
+              style={{ maxHeight: '200px' }}
+            />
+          </div>
+
+          {/* Mobile Form Title */}
+          <div className="">
+            <h2 className="text-xl sm:text-2xl font-medium">
+              {t('welcome.createYourOwn')} <span className="text-[#3A58ED] font-bold">{t('welcome.aiEmployee')}</span>
+            </h2>
+          </div>
+
+          {/* Mobile Form */}
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div className="relative">
+              <img 
+                src={siteIcon} 
+                alt="" 
+                className="absolute left-4 top-[50%] -translate-y-1/2 w-5 h-5 transition-colors z-10"
+                style={{ 
+                  filter: getIconFilter(form.website, !!errors.website, false)
+                }}
+              />
+              <input
+                type="text"
+                name="website"
+                placeholder={t('welcome.websitePlaceholder')}
+                value={form.website}
+                onChange={handleWebsiteChange}
+                className={`w-full px-12 py-4 rounded-full border focus:outline-none focus:border-[#3A58ED] focus:ring-1 focus:ring-[#3A58ED] transition-colors placeholder-[#C2C2C5] text-base ${form.website ? (errors.website ? 'border-red-500' : 'border-black') : 'border-[#C2C2C5]'}`}
+                onFocus={(e) => {
+                  const img = e.currentTarget.previousElementSibling as HTMLImageElement;
+                  if (img) {
+                    img.style.filter = "invert(29%) sepia(93%) saturate(1465%) hue-rotate(227deg) brightness(94%) contrast(98%)";
+                  }
+                }}
+                onBlur={(e) => {
+                  const img = e.currentTarget.previousElementSibling as HTMLImageElement;
+                  if (img) {
+                    const hasError = !!errors.website;
+                    img.style.filter = getIconFilter(e.currentTarget.value, hasError, false);
+                  }
+                }}
+              />
+              {errors.website && (
+                <p className="text-red-500 text-sm mt-1 ml-4">{errors.website}</p>
+              )}
+            </div>
+
+            <div className="relative">
+              <img 
+                src={mailIcon} 
+                alt="" 
+                className="absolute left-4 top-[50%] -translate-y-1/2 w-5 h-5 transition-colors z-10"
+                style={{ 
+                  filter: getIconFilter(form.email, !!errors.email, false)
+                }}
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder={t('welcome.emailPlaceholder')}
+                value={form.email}
+                onChange={handleEmailChange}
+                className={`w-full px-12 py-4 rounded-full border focus:outline-none focus:border-[#3A58ED] focus:ring-1 focus:ring-[#3A58ED] transition-colors placeholder-[#C2C2C5] text-base ${form.email ? (errors.email ? 'border-red-500' : 'border-black') : 'border-[#C2C2C5]'}`}
+                onFocus={(e) => {
+                  const img = e.currentTarget.previousElementSibling as HTMLImageElement;
+                  if (img) {
+                    img.style.filter = "invert(29%) sepia(93%) saturate(1465%) hue-rotate(227deg) brightness(94%) contrast(98%)";
+                  }
+                }}
+                onBlur={(e) => {
+                  const img = e.currentTarget.previousElementSibling as HTMLImageElement;
+                  if (img) {
+                    const hasError = !!errors.email;
+                    img.style.filter = getIconFilter(e.currentTarget.value, hasError, false);
+                  }
+                }}
+              />
+              {errors.email && (
+                <p className="text-red-500 text-sm mt-1 ml-4">{errors.email}</p>
+              )}
+            </div>
+
+            <div className="pt-4">
+              <PurpleButtonWithArrow
+                label={t('welcome.getButton')}
+                onClick={(e) => {
+                  e.preventDefault();
+                  if (isFormValid) {
+                    onSubmit(form);
+                  }
+                }}
+                disabled={!isFormValid}
+              />
+            </div>
+          </form>
+
+          {/* Mobile Companies Section */}
+          <div className="pt-4">
+            <p className="text-center text-lg font-medium mb-4">{t('welcome.joinCompanies')}</p>
+            
+            <div className="logos-mobile overflow-hidden" style={{ height: '60px' }}>
+              <div className="logos-slide inline-block">
+                {welcomeLogos.map((logo, index) => {
+                  return (
+                    <img 
+                      key={index} 
+                      src={logo.src} 
+                      alt={logo.alt} 
+                      className="object-contain inline-block mx-4"
+                      style={{ 
+                        maxWidth: '80px',
+                        maxHeight: '50px',
+                        height: 'auto'
+                      }}
+                    />
+                  );
+                })}
+              </div>
+              <div className="logos-slide inline-block">
+                {welcomeLogos.map((logo, index) => {
+                  return (
+                    <img 
+                      key={index} 
+                      src={logo.src} 
+                      alt={logo.alt} 
+                      className="object-contain inline-block mx-4"
+                      style={{ 
+                        maxWidth: '80px',
+                        maxHeight: '50px',
+                        height: 'auto'
+                      }}
+                    />
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
       </div>
